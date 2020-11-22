@@ -1,0 +1,12 @@
+{
+  "name": "one-stitch",
+  "version": "0.1.0",
+  "description": "One Stitch Studio website",
+  "author": "Max Isaev<isaev.maxismax@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "heroku:frontend": "cd frontend && npm run heroku",
+    "heroku:backend": "cd backend && npm run heroku",
+    "heroku": "npm run heroku:backend && npm run heroku:frontend"
+  }
+}
